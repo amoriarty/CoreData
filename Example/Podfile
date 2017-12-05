@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'alegent2018_Example' do
+  pod 'alegent2018', :path => '../'
+
+  target 'alegent2018_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
