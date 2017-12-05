@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import alegent2018
+//import alegent2018
 
 class Tests: XCTestCase {
     
