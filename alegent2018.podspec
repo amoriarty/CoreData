@@ -14,7 +14,7 @@ Used to save and managed some posts using CoreData.
   s.author = { 'amoriarty' => 'alegent@student.42.fr' }
   s.source = { :git => 'https://github.com/amoriarty/CoreData.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.2'
 
   s.source_files = 'alegent2018/Classes/**/*'
   s.resource_bundles = {
