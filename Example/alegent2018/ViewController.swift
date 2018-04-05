@@ -12,6 +12,10 @@ import alegent2018
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let manager = PostManager()
+        let post = manager.newPost()
+        print(post)
     }
 }
 

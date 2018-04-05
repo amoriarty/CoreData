@@ -17,9 +17,10 @@ Used to save and managed some posts using CoreData.
   s.ios.deployment_target = '11.2'
 
   s.source_files = 'alegent2018/Classes/**/*'
-  s.resource_bundles = {
-    'alegent2018' => ['alegent2018/Assets/*.{png,xcdatamodeld}']
-  }
+#  s.resource_bundles = {
+#    'alegent2018' => ['alegent2018/Assets/*.{png,xcdatamodeld}']
+#  }
 
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.frameworks = 'CoreData'
 end
