@@ -11,7 +11,6 @@ import CoreData
 
 @objc(Post)
 public class Post: NSManagedObject {
-    
     public override var description: String {
         guard let title = title, let modification_date = modification_date else { return "" }
         return "\(title) - \(modification_date)"
